@@ -4,6 +4,7 @@
 
 ## Contains
 #### ✅ Localization
+#### ✅ Persian Fonts(Vazir, B Yekan, B Nazanin)
 #### ✅ Dark and Light Theme
 #### ✅ Seperated Web and Mobile UI 
 #### ✅ API Calls Using DIO
