@@ -11,3 +11,5 @@
 #### ✅ GetStorage
 #### ✅ Sample Models
 #### ✅ Error Handler
+
+[tree](https://raw.githubusercontent.com/JulyWitch/flutter_getx_pattern_template/master/tree.png)
