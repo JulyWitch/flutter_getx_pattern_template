@@ -1,5 +1,4 @@
 import 'package:flutter/material.dart';
-import 'package:flutter/foundation.dart' as fnd;
 import 'package:flutter_getx_pattern_template/app/modules/controller/main_controller.dart';
 import 'package:flutter_getx_pattern_template/app/modules/mobile/splash/splash_page.dart'
     as mobile;
@@ -12,6 +11,7 @@ import 'app/modules/mobile/routes/app_pages.dart' as mobile;
 import 'app/modules/desktop/routes/app_pages.dart' as desktop; 
 import 'app/themes/themes.dart';
 import 'app/translations/app_translations.dart';
+import 'app/translations/strings.dart';
 
 void main() async{
   await GetStorage.init();
@@ -23,7 +23,8 @@ class MyApp extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return GetMaterialApp(
-      title: 'Getx Template',
+      debugShowCheckedModeBanner: false,
+      title: STRINGS.HOME.tr,
       home: Get.width * Get.height > 470000
           ? desktop.SplashPage()
           : mobile.SplashPage(),

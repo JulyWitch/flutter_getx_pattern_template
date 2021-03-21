@@ -5,8 +5,12 @@
     "version": "0.2.0",
     "configurations": [
         {
-            "name": "flutter_getx_pattern_template",
+            "name": "Flutter",
             "request": "launch",
+            "args": [
+                "--web-hostname 0.0.0.0",
+                "--web-port 8989"
+            ],
             "type": "dart"
         }
     ]

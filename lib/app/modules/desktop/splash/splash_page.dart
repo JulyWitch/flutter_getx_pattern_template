@@ -14,7 +14,7 @@ class _SplashPageState extends State<SplashPage> {
     super.initState();
     Future.delayed(
         Duration(
-          milliseconds: 3000,
+          milliseconds: 5000,
         ),
         () {
           Get.offAndToNamed(Routes.HOME);

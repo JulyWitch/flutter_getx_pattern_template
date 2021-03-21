@@ -19,5 +19,6 @@ abstract class ApiProvider {
       log(e.toString());
       ErrorHandler.Error500();
     }
+    return null;
   }
 }

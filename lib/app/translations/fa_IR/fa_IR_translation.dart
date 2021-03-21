@@ -1,3 +1,3 @@
 import '../strings.dart';
 
-final Map<String, String> faIR = {HOME: "خانه"};
+final Map<String, String> faIR = {STRINGS.HOME: "خانه"};
