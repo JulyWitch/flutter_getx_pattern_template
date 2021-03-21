@@ -1,0 +1,2 @@
+
+const HOME = "Home";
