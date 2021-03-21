@@ -36,7 +36,7 @@ class MyApp extends StatelessWidget {
           : mobile.AppPages.pages,
     theme: appThemeData,
     darkTheme: appDarkThemeData,
-    themeMode: ThemeMode.light,
+    themeMode: ThemeMode.dark,
     defaultTransition: Transition.fadeIn,
     );
   }

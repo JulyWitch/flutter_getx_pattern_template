@@ -10,5 +10,6 @@ final appThemeData = ThemeData(
 ////
 
 final appDarkThemeData = ThemeData(
-  scaffoldBackgroundColor: Color.fromRGBO(0, 0, 128, 1),
+  // scaffoldBackgroundColor: Color.fromRGBO(0, 0, 128, 1),
+  brightness: Brightness.dark
 );
