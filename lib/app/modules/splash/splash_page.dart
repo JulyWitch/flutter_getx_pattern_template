@@ -1,5 +1,5 @@
 import 'package:flutter/material.dart';
-import 'package:flutter_getx_pattern_template/app/modules/mobile/routes/app_pages.dart';
+import 'package:flutter_getx_pattern_template/app/modules/routes/app_pages.dart';
 import 'package:flutter_spinkit/flutter_spinkit.dart';
 import 'package:get/get.dart';
 
@@ -15,9 +15,10 @@ class _SplashPageState extends State<SplashPage> {
     Future.delayed(
         Duration(
           milliseconds: 5000,
-        ), () {
-      Get.offAndToNamed(Routes.HOME);
-    });
+        ),
+        () {
+          Get.offAndToNamed(Routes.HOME);
+        });
   }
 
   @override
