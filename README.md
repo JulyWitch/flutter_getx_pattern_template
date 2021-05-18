@@ -5,11 +5,8 @@
 ## Contains
 #### ✅ Localization
 #### ✅ Persian Fonts(Vazir, B Yekan, B Nazanin)
-#### ✅ Dark and Light Theme
-#### ✅ Seperated Desktop and Mobile UI 
+#### ✅ Dark and Light Theme 
 #### ✅ API Calls Using DIO
 #### ✅ GetStorage
 #### ✅ Sample Models
-#### ✅ Error Handler
-
-![tree](https://raw.githubusercontent.com/JulyWitch/flutter_getx_pattern_template/master/tree.png)
+#### ✅ Error Handle
